@@ -16,6 +16,7 @@ services:
     container_name: app
     volumes:
       - ./app:/usr/src/app
+      - /usr/src/app/node_modules
     environment:
       - DB_HOST=db
       - DB_USER=root
