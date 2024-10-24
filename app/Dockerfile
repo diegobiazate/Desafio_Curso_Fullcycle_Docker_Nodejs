@@ -12,4 +12,4 @@ RUN npm install
 
 COPY . .
 
-CMD ["wait-for", "db:3306", "--", "npm", "start"]
+CMD ["npm", "start"]
